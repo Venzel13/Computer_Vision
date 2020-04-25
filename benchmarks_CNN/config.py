@@ -1,0 +1,35 @@
+from torchvision import models
+
+NETS = {
+    "AlexNet": models.alexnet,
+    "VGG-11": models.vgg11,
+    "VGG-13": models.vgg13,
+    "VGG-16": models.vgg16,
+    "VGG-19": models.vgg19,
+    "VGG-11 with batch normalization": models.vgg11_bn,
+    "VGG-13 with batch normalization": models.vgg13_bn,
+    "VGG-16 with batch normalization": models.vgg16_bn,
+    "VGG-19 with batch normalization": models.vgg19_bn,
+    "ResNet-18": models.resnet18,
+    "ResNet-34": models.resnet34,
+    "ResNet-50": models.resnet50,
+    "ResNet-101": models.resnet101,
+    "ResNet-152": models.resnet152,
+    "SqueezeNet 1.0": models.squeezenet1_0,
+    "SqueezeNet 1.1": models.squeezenet1_1,
+    "Densenet-121": models.densenet121,
+    "Densenet-169": models.densenet169,
+    "Densenet-201": models.densenet201,
+    "Densenet-161": models.densenet161,
+    "Inception v3": models.inception_v3,
+    "GoogleNet": models.googlenet,
+    "ShuffleNet V2": models.shufflenet_v2_x1_0,
+    "MobileNet V2": models.mobilenet_v2,
+    "ResNeXt-50-32x4d": models.resnext50_32x4d,
+    "ResNeXt-101-32x8d": models.resnext101_32x8d,
+    "Wide ResNet-50-2": models.wide_resnet50_2,
+    "Wide ResNet-101-2": models.wide_resnet101_2,
+    "MNASNet 1.0": models.mnasnet1_0,
+}
+
+
