@@ -66,16 +66,3 @@ def define_resnet34(n_classes = 120):
     )
 
 model = define_resnet34()
-
-
-# class DownsaplingBlock(nn.Module):
-#     def __init__(self, c_in, c_out, ks):
-#         super().__init__()
-#         self.conv1 = ...
-#         self.conv2 = ...
-
-#     def forward(self, input):
-#         output = self.conv1(input)
-#         output = torch.cat((output, torch.zeros_like(output)), 1)
-#         output = self.conv2(output)
-#         return output
